@@ -115,12 +115,7 @@ int main(){
     do {
         cout << "\n1 = suma\n2 = resta\n3 = multiplicacion\n4 = divicion\n0 = Salir";
         cout << "\nSeleccione una ocion: ";
-        cin >> opcion;
-
-        if (opcion >= 1 && opcion <= 4){
-            op.getNumUno();
-            op.getNumDos();
-        }
+        cin >> opcion; 
 
         switch (opcion){
             case 1: 
